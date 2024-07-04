@@ -11,9 +11,5 @@ Src := 87654321;
 udiCount := 4;     
 
 
-SysMemCpy(
-    pDest := Dest,  
-    pSrc := Src,    
-    udiCount := udiCount  
-);
+SysMemCpy( Dest,Src,udiCount);
 
